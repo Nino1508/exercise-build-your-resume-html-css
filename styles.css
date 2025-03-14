@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; 
+}
+
+.container {
+    max-width: 900px; 
+    margin: auto; 
+
+}
+.content{
+    display: flex;
+    margin-top: none;
+}
+.main {
+    flex: 70%; 
+    padding: 10px;
+    background-color: white;
+}
+
+.sidebar {
+    flex: 25%; 
+    padding: 10px;
+    background-color: white;
+    margin-left: 10px; 
+}
+.header {
+    background-color: lightseagreen; 
+    padding: 10px; 
+    text-align: left; 
+    margin-top: 20px;
+    
+}
+
+.header h1 {
+    font-size: 26px; 
+    margin-bottom: 5px;
+}
+
+.header p {
+    font-size: 24px; 
+    margin-top: 0px;
+}
+h2{
+    color:lightseagreen; 
+    border-bottom: solid 2px lightseagreen;
+}
+h3 {
+    margin-bottom: 5px;
+}
+
+h5 {
+    margin-top: 5px;
+    font-weight: 600;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li i {
+    margin-right: 8px;
+    color: darkslategray;
+}
+.progress-bar {
+    margin-bottom: 15px;
+}
+
+.progress {
+    background-color: #ccc;
+    height: 20px;
+}
+
+.progress-fill {
+    background-color: lightseagreen;
+    height: 100%;
+}
+.sidebarDown {
+    margin-top: 20px;
+}
+
+.educational-item {
+    margin-bottom: 15px;
+}
